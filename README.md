@@ -1,0 +1,3 @@
+The Expense Reimbursement System manages the process of reimbursing employees for expenses incurred while on company time. Employees in the company can login, submit requests for reimbursements, and view their past tickets and pending tickets. Finance Managers can log in and view all reimbursement requests and history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement, as well as view all employees and delete employees.
+
+The React front end sends axios HTTP Requests to the Spring-based back end, which communicates with a Postgres Database to return HTTP Responses. An AWS RDS may optionally be spun up in order for teammates to share the same dataset.
